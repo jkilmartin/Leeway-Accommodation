@@ -1,0 +1,25 @@
+{
+    "people": [
+        {
+            "id": 1,
+            "title": "1 Person",
+            "slug": "1-person"
+        },
+        {
+            "id": 2,
+            "title": "2 People",
+            "slug": "2-people"
+        },
+        {
+            "id": 3,
+            "title": "3 People",
+            "slug": "3-people"
+
+        },
+        {
+            "id": 4,
+            "title": "4 People",
+            "slug": "4-people"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+.main-nav {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 13px;
+    
+    a {
+        color: white;
+        padding-right: 2em;
+    }
+
+    .active {
+        color: #0093FF;
+    }
+}
+
+.advancedSearchBox {
+    display: none;
+  }
+
+.category-list {
+    display: none;
+  }

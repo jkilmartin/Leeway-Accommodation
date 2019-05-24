@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>LEEWAY. | Home</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+    <link rel="stylesheet" href="css/modaal.min.css">
+    <link rel="stylesheet" href="dist/css/main.min.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+</head>
+
+<body>
+    <header>
+        <ul class="main-nav">
+            <li>
+                <a data-screen="about" class="screen-link" href="#">About</a>
+            </li>
+            <li>
+                <a data-screen="home" class="screen-link active" href="#">Home</a>
+            </li>
+        </ul>
+    </header>
+    <div class="container content">
+        <div id="home" class="screen active">
+            <div class="leeway-header">
+                <a href="">
+                    <h1>LEEWAY.</h1>
+                </a>
+                <p>PREMIUM CHRISTCHURCH ACCOMMODATION AT AFFORDABLE PRICES</p>
+            </div>
+            <a href="#" class="advanced-search">Advanced Search</a>
+            <div class="advancedSearchBox">
+                <form onsubmit="return false">
+                    <select id="avPeopleDropdown"></select>
+                    <select id="avNightDropdown"></select>
+                    <input id="avSubmitBtn" type="submit" value="Advanced Search">
+                </form>
+                <ul class="category-list"></ul>
+            </div>
+
+            <div class="accomodationBasedOnInput">
+            </div>
+        </div>
+
+        <div id="about" class="screen">
+            <h3>About LEEWAY.</h3>
+            <div class="aboutContent">
+                <P>Tourism New Zealand works with the tourism industry to positively promote New Zealand internationally. They
+                    have a new campaign that is aimed at visitors staying for short periods, booking their own accommodation
+                    and arranging their own transport.</P>
+
+                <P>This is a single page web application that allows users to input information, validate the information and
+                    provide meaningful feedback when validation has failed or passed. Display accommodation options to the
+                    user information entered.</P>
+            </div>
+        </div>
+    </div>
+
+    <div class="modaal-content">
+        <div class="modaal0Info">
+            <div class="popupInfo">
+                <div class="info-images">
+                    <img class="main-info-image" src="images/alibini/foyer.png" alt="picture">
+                    <div class="flexed-images">
+                        <img class="second-info-image" src="images/alibini/pool.png" alt="picture">
+                        <img class="third-info-image" src="images/alibini/room.png" alt="picture">
+                    </div>
+                </div>
+                <div class="infoText">
+                    <h1>Alibini Hotel</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum tempor mauris, quis auctor risus
+                        hendrerit vel. Pellentesque convallis ac odio et iaculis. Duis suscipit fringilla dui eu pellentesque.
+                        In ut efficitur magna. Vivamus congue sagittis sem at accumsan. Donec congue a justo vitae ullamcorper.
+                        Integer dignissim blandit lacus ac laoreet. Proin condimentum risus metus.</p>
+
+                    <p>In hac habitasse platea dictumst. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                        cubilia Curae; Nulla finibus imperdiet ante, ac mattis urna aliquam id. Mauris mauris nunc, aliquet
+                        id nibh vel, fermentum consectetur tortor. Duis viverra nisi ac leo finibus, ut vestibulum enim tincidunt.</p>
+                </div>
+            </div>
+            <div class="price-for-accommodation">
+                <h2>Food & Beverages We Offer</h2>
+                <div class="flexed-info">
+                    <div class="mealoptions">
+                        <div class="meal">
+
+                            <img src="images/food/AfternoonTea.png" alt="picture">
+                            <p>Afternoon Tea</p>
+
+                        </div>
+                        <div class="meal">
+
+                            <img src="images/food/BeerSoda.png" alt="picture">
+                            <p>Cold Beverages</p>
+
+                        </div>
+                        <div class="meal">
+
+                            <img src="images/food/FullBrekkie.png" alt="picture">
+                            <p>Breakfast</p>
+
+                        </div>
+                    </div>
+                    <div class="booking-info">
+                        <p>$157 per night (GST inclusive)</p>
+                        <button class="button is-primary">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modaal1Info">
+            <div class="popupInfo">
+                <div class="info-images">
+                    <img class="main-info-image" src="images/camquat/Room.png" alt="picture">
+                    <div class="flexed-images">
+                        <img class="second-info-image" src="images/camquat/Bathroom.png" alt="picture">
+                        <img class="third-info-image" src="images/camquat/diningroom.png" alt="picture">
+                    </div>
+                </div>
+                <div class="infoText">
+                    <h1>Camquat Hostel</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum tempor mauris, quis auctor risus
+                        hendrerit vel. Pellentesque convallis ac odio et iaculis. Duis suscipit fringilla dui eu pellentesque.
+                        In ut efficitur magna. Vivamus congue sagittis sem at accumsan. Donec congue a justo vitae ullamcorper.
+                        Integer dignissim blandit lacus ac laoreet. Proin condimentum risus metus.</p>
+
+                    <p>In hac habitasse platea dictumst. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                        cubilia Curae; Nulla finibus imperdiet ante, ac mattis urna aliquam id. Mauris mauris nunc, aliquet
+                        id nibh vel, fermentum consectetur tortor. Duis viverra nisi ac leo finibus, ut vestibulum enim tincidunt.</p>
+                </div>
+            </div>
+            <div class="price-for-accommodation">
+                <h2>Food & Beverages We Offer</h2>
+                <div class="flexed-info">
+                    <div class="mealoptions">
+                        <div class="meal">
+
+                            <img src="images/food/TeaCoffee.png" alt="picture">
+                            <p>Warm Beverages</p>
+
+                        </div>
+                        <div class="meal">
+
+                            <img src="images/food/Waffles.png" alt="picture">
+                            <p>Breakfast</p>
+
+                        </div>
+                        <div class="meal">
+
+                            <img src="images/food/BeerSoda.png" alt="picture">
+                            <p>Cold Beverages</p>
+
+                        </div>
+                    </div>
+                    <div class="booking-info">
+                        <p>$30 per night (GST inclusive)</p>
+                        <button class="button is-primary">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modaal2Info">
+            <div class="popupInfo">
+                <div class="info-images">
+                    <img class="main-info-image" src="images/marges/room.png" alt="picture">
+                    <div class="flexed-images">
+                        <img class="second-info-image" src="images/marges/diningroom.png" alt="picture">
+                        <img class="third-info-image" src="images/marges/bathroom.png" alt="picture">
+                    </div>
+                </div>
+                <div class="infoText">
+                    <h1>Marges Bed 'n' Breakfast</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum tempor mauris, quis auctor risus
+                        hendrerit vel. Pellentesque convallis ac odio et iaculis. Duis suscipit fringilla dui eu pellentesque.
+                        In ut efficitur magna. Vivamus congue sagittis sem at accumsan. Donec congue a justo vitae ullamcorper.
+                        Integer dignissim blandit lacus ac laoreet. Proin condimentum risus metus.</p>
+
+                    <p>In hac habitasse platea dictumst. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                        cubilia Curae; Nulla finibus imperdiet ante, ac mattis urna aliquam id. Mauris mauris nunc, aliquet
+                        id nibh vel, fermentum consectetur tortor. Duis viverra nisi ac leo finibus, ut vestibulum enim tincidunt.</p>
+                </div>
+            </div>
+            <div class="price-for-accommodation">
+                <h2>Food & Beverages We Offer</h2>
+                <div class="flexed-info">
+                    <div class="mealoptions">
+                        <div class="meal">
+
+                            <img src="images/food/TeaCoffee.png" alt="picture">
+                            <p>Warm Beverages</p>
+
+                        </div>
+                        <div class="meal">
+
+                            <img src="images/food/FullBrekkie.png" alt="picture">
+                            <p>Hearty Breakfast</p>
+
+                        </div>
+                        <div class="meal">
+
+                            <img src="images/food/OrangeJuice.png" alt="picture">
+                            <p>Refreshing Drinks</p>
+
+                        </div>
+                    </div>
+                    <div class="booking-info">
+                        <p>$240 per night (GST inclusive)</p>
+                        <button class="button is-primary">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modaal3Info">
+            <div class="popupInfo">
+                <div class="info-images">
+                    <img class="main-info-image" src="images/leeroi/Bed.png" alt="picture">
+                    <div class="flexed-images">
+                        <img class="second-info-image" src="images/leeroi/Gym.png" alt="picture">
+                        <img class="third-info-image" src="images/leeroi/Pool.png" alt="picture">
+                    </div>
+                </div>
+                <div class="infoText">
+                    <h1>Leerois Motel & Brekkie</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum tempor mauris, quis auctor risus
+                        hendrerit vel. Pellentesque convallis ac odio et iaculis. Duis suscipit fringilla dui eu pellentesque.
+                        In ut efficitur magna. Vivamus congue sagittis sem at accumsan. Donec congue a justo vitae ullamcorper.
+                        Integer dignissim blandit lacus ac laoreet. Proin condimentum risus metus.</p>
+
+                    <p>In hac habitasse platea dictumst. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                        cubilia Curae; Nulla finibus imperdiet ante, ac mattis urna aliquam id. Mauris mauris nunc, aliquet
+                        id nibh vel, fermentum consectetur tortor. Duis viverra nisi ac leo finibus, ut vestibulum enim tincidunt.</p>
+                </div>
+            </div>
+            <div class="price-for-accommodation">
+                <h2>Food & Beverages We Offer</h2>
+                <div class="flexed-info">
+                    <div class="mealoptions">
+                        <div class="meal">
+
+                            <img src="images/food/TeaCoffee.png" alt="picture">
+                            <p>Warm Drinks</p>
+
+                        </div>
+                        <div class="meal">
+
+                            <img src="images/food/FullBrekkie.png" alt="picture">
+                            <p>Breakfast</p>
+
+                        </div>
+                        <div class="meal">
+
+                            <img src="images/food/Waffles.png" alt="picture">
+                            <p>Waffles</p>
+
+                        </div>
+                    </div>
+                    <div class="booking-info">
+                        <p>$90 per night (GST inclusive)</p>
+                        <button class="button is-primary">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/modaal.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

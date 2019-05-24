@@ -1,0 +1,52 @@
+{
+    "places": [
+        {
+            "id": 0,
+            "name": "Alibini Hotel",
+            "imgSrc": "/images/hotel.jpg",
+            "information": "Alibini is a 4.5 star hotel, located in the heart of the CBD 2 minutes walk from New Regent Street and 6 minutes walk from Christchurch Casino There is a fully-equipped gym for guests to utilize & ultra modern bathrooms, unlimited free WiFi and Samsung Smart TV's in all rooms",
+            "minimumNights": 1,
+            "maximumNights": 5,
+            "minimumPeople": 1,
+            "maximumPeople": 2,
+            "modaalClass": "modaal0",
+            "imgDetail": "modaalImg"
+        },
+        {
+            "id": 1,
+            "name": "Camquat Hostel",
+            "imgSrc": "/images/hostel.jpg",
+            "information": "Stay in the centre of Christchurch in our beautifully renovated loft style building - easy walk to all city sights including Cardboard Cathedral, Tram, historic New Regent Street, Avon River, entertainment venues and the best bars and restaurants. FREE UNLIMITED wifi. Onsite bar with cheapest beer in town. Big lounge with pool table, SKY satellite TV, and fireplaces. ",
+            "minimumNights": 1,
+            "maximumNights": 10,
+            "minimumPeople": 1,
+            "maximumPeople": 1,
+            "modaalClass": "modaal1",
+            "imgDetail": "modaalImg"
+        },
+        {
+            "id": 2,
+            "name": "Marges Bed 'n' Breakfast",
+            "imgSrc": "/images/bnb.jpg",
+            "information": "Welcome to our fantastic newly build modern and private en-suite apartment with dedicated parking, which is comfortable and perfect for every traveler. Located close to city center with friendly and safe neighborhood. Great coffee, pubs ,restaurants near by. Ideal for couples, short term or long term Business travelers. Coffee/Tea, Serials with milk included.",
+            "minimumNights": 2,
+            "maximumNights": 15,
+            "minimumPeople": 1,
+            "maximumPeople": 4,
+            "modaalClass": "modaal2",
+            "imgDetail": "modaalImg"
+        },
+        {
+            "id": 3,
+            "name": "Leerois Motel & Brekkie",
+            "imgSrc": "/images/motel.jpg",
+            "information": "Leerois Motel is a boutique motel complex of 14 air-conditioned studios, 1 bedroom and 2 bedroom suites, providing a 5 Star 'Gold' Qualmark rated experience in Hanmer Springs Village. Walking distance from the Thermal Pools, shops & restaurants.",
+            "minimumNights": 3,
+            "maximumNights": 10,
+            "minimumPeople": 2,
+            "maximumPeople": 4,
+            "modaalClass": "modaal3",
+            "imgDetail": ""
+        }
+    ]
+}
